@@ -7,8 +7,8 @@ import random
 import json
 
 # ── Config ──────────────────────────────────────────────────────────────────
-DISCORD_TOKEN = os.environ.get("DISCORD_TOKEN", "MTUwNDk0NTM0NTU2ODgzMzYxNw.GaSyPD.ZopoIj9bdDbc1Ve1FVmEHH6syUGWotaSU9bUic")
-GROQ_API_KEY  = os.environ.get("GROQ_API_KEY",  "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")
+DISCORD_TOKEN = os.environ.get("DISCORD_TOKEN", "")
+GROQ_API_KEY  = os.environ.get("GROQ_API_KEY",  "")
 MODEL         = "groq/compound-mini"
 TRIGGER       = "!centrAI"
 MAX_HISTORY   = 10
